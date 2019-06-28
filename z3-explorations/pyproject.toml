@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "z3-explorations"
 version = "0.1.0"
-description = ""
+description = "Explores the Z3 prover"
 authors = ["sebug <sebastian.gfeller@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^2.7"
+z3-solver = "^4.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
